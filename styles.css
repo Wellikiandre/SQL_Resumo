@@ -76,6 +76,34 @@ footer {
     margin-top: 20px;
 }
 
+footer .buttons {
+    margin-top: 10px;
+}
+
+footer .btn-linkedin,
+footer .btn-datacement {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer .btn-linkedin {
+    background-color: #0077b5;
+}
+
+footer .btn-datacement {
+    background-color: #ff6600;
+}
+
+footer .btn-linkedin:hover,
+footer .btn-datacement:hover {
+    opacity: 0.8;
+}
+
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
