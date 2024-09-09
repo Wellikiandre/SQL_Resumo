@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SQL Mindmap Study</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SQL Study Guide</h1>
+        <h2>By Wellikiandre Martins: https://www.linkedin.com/in/wellikiandre/</h2>
+        <p>Classified by levels and organized for better understanding</p>
+    </header>
+
+    <section class="level">
+        <h2>Basic Concepts</h2>
+        <div class="content">
+            <div>
+                <h3>Functions</h3>
+                <ul>
+                    <li>AVG()</li>
+                    <li>SUM()</li>
+                    <li>COUNT()</li>
+                    <li>MAX()</li>
+                    <li>MIN()</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>JOINs</h3>
+                <ul>
+                    <li>LEFT JOIN</li>
+                    <li>RIGHT JOIN</li>
+                    <li>INNER JOIN</li>
+                    <li>FULL JOIN</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>WHERE Clauses</h3>
+                <ul>
+                    <li><, >, =, <=, >=</li>
+                    <li>AND, OR, NOT</li>
+                    <li>BETWEEN</li>
+                    <li>LIKE</li>
+                    <li>IN, ALL, ANY</li>
+                    <li>EXISTS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="level">
+        <h2>Intermediate Concepts</h2>
+        <div class="content">
+            <div>
+                <h3>GROUP BY</h3>
+                <ul>
+                    <li>GROUP BY column</li>
+                    <li>HAVING</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>ORDER BY</h3>
+                <ul>
+                    <li>ORDER BY column</li>
+                    <li>ORDER BY column DESC</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Data Manipulation (DML)</h3>
+                <ul>
+                    <li>INSERT</li>
+                    <li>UPDATE</li>
+                    <li>DELETE</li>
+                    <li>SELECT</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="level">
+        <h2>Advanced Concepts</h2>
+        <div class="content">
+            <div>
+                <h3>Window Functions</h3>
+                <ul>
+                    <li>ROW_NUMBER()</li>
+                    <li>RANK()</li>
+                    <li>DENSE_RANK()</li>
+                    <li>LAG()</li>
+                    <li>LEAD()</li>
+                    <li>NTILE()</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Transaction Control (TCL)</h3>
+                <ul>
+                    <li>COMMIT</li>
+                    <li>ROLLBACK</li>
+                    <li>SAVEPOINT</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Data Control (DCL)</h3>
+                <ul>
+                    <li>GRANT</li>
+                    <li>REVOKE</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="level">
+        <h2>Database Definition (DDL)</h2>
+        <div class="content">
+            <div>
+                <h3>Table Operations</h3>
+                <ul>
+                    <li>CREATE TABLE</li>
+                    <li>ALTER TABLE</li>
+                    <li>DROP TABLE</li>
+                    <li>TRUNCATE TABLE</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Constraints</h3>
+                <ul>
+                    <li>Primary Key</li>
+                    <li>Foreign Key</li>
+                    <li>Unique</li>
+                    <li>Not Null</li>
+                    <li>Check</li>
+                    <li>Default</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>SQL Study Guide - Learn SQL step by step</p>
+    </footer>
+</body>
+</html>
