@@ -1,112 +1,154 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SQL Mindmap Study</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SQL Study Guide</h1>
+        <p>Classified by levels and organized for better understanding</p>
+    </header>
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
+    <section class="level">
+        <h2>Basic Concepts</h2>
+        <div class="content">
+            <div>
+                <h3>Functions</h3>
+                <ul>
+                    <li>AVG()</li>
+                    <li>SUM()</li>
+                    <li>COUNT()</li>
+                    <li>MAX()</li>
+                    <li>MIN()</li>
+                </ul>
+            </div>
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
+            <div>
+                <h3>JOINs</h3>
+                <ul>
+                    <li>LEFT JOIN</li>
+                    <li>RIGHT JOIN</li>
+                    <li>INNER JOIN</li>
+                    <li>FULL JOIN</li>
+                </ul>
+            </div>
 
-h1 {
-    margin-bottom: 10px;
-}
+            <div>
+                <h3>WHERE Clauses</h3>
+                <ul>
+                    <li><, >, =, <=, >=</li>
+                    <li>AND, OR, NOT</li>
+                    <li>BETWEEN</li>
+                    <li>LIKE</li>
+                    <li>IN, ALL, ANY</li>
+                    <li>EXISTS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-p {
-    font-size: 1.2em;
-}
+    <section class="level">
+        <h2>Intermediate Concepts</h2>
+        <div class="content">
+            <div>
+                <h3>GROUP BY</h3>
+                <ul>
+                    <li>GROUP BY column</li>
+                    <li>HAVING</li>
+                </ul>
+            </div>
 
-.level {
-    margin: 20px auto;
-    width: 90%;
-    max-width: 1200px;
-}
+            <div>
+                <h3>ORDER BY</h3>
+                <ul>
+                    <li>ORDER BY column</li>
+                    <li>ORDER BY column DESC</li>
+                </ul>
+            </div>
 
-.level h2 {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
+            <div>
+                <h3>Data Manipulation (DML)</h3>
+                <ul>
+                    <li>INSERT</li>
+                    <li>UPDATE</li>
+                    <li>DELETE</li>
+                    <li>SELECT</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-.content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+    <section class="level">
+        <h2>Advanced Concepts</h2>
+        <div class="content">
+            <div>
+                <h3>Window Functions</h3>
+                <ul>
+                    <li>ROW_NUMBER()</li>
+                    <li>RANK()</li>
+                    <li>DENSE_RANK()</li>
+                    <li>LAG()</li>
+                    <li>LEAD()</li>
+                    <li>NTILE()</li>
+                </ul>
+            </div>
 
-.content div {
-    background: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1;
-    min-width: 300px;
-}
+            <div>
+                <h3>Transaction Control (TCL)</h3>
+                <ul>
+                    <li>COMMIT</li>
+                    <li>ROLLBACK</li>
+                    <li>SAVEPOINT</li>
+                </ul>
+            </div>
 
-.content h3 {
-    color: #4CAF50;
-    margin-bottom: 15px;
-}
+            <div>
+                <h3>Data Control (DCL)</h3>
+                <ul>
+                    <li>GRANT</li>
+                    <li>REVOKE</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-.content ul {
-    list-style-type: none;
-}
+    <section class="level">
+        <h2>Database Definition (DDL)</h2>
+        <div class="content">
+            <div>
+                <h3>Table Operations</h3>
+                <ul>
+                    <li>CREATE TABLE</li>
+                    <li>ALTER TABLE</li>
+                    <li>DROP TABLE</li>
+                    <li>TRUNCATE TABLE</li>
+                </ul>
+            </div>
 
-.content ul li {
-    padding: 5px 0;
-}
+            <div>
+                <h3>Constraints</h3>
+                <ul>
+                    <li>Primary Key</li>
+                    <li>Foreign Key</li>
+                    <li>Unique</li>
+                    <li>Not Null</li>
+                    <li>Check</li>
+                    <li>Default</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    margin-top: 20px;
-}
-
-footer .buttons {
-    margin-top: 10px;
-}
-
-footer .btn-linkedin,
-footer .btn-datacement {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-
-footer .btn-linkedin {
-    background-color: #0077b5;
-}
-
-footer .btn-datacement {
-    background-color: #ff6600;
-}
-
-footer .btn-linkedin:hover,
-footer .btn-datacement:hover {
-    opacity: 0.8;
-}
-
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+    <footer>
+        <p>SQL Study Guide - Learn SQL step by step</p>
+        <div class="buttons">
+            <a href="https://www.linkedin.com/in/wellikiandre/" target="_blank" class="btn-linkedin">LinkedIn</a>
+            <a href="https://www.datacement.com.br" target="_blank" class="btn-datacement">Datacement SQL & Spark</a>
+        </div>
+    </footer>
+</body>
+</html>
